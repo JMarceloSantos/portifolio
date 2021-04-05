@@ -31,11 +31,11 @@
             <div class="banner">
                 <h1>Web Developer & Front End <br> Designer</h1>
                 <p> José Marcelo </p>
-                <button> Saiba mais</button>
+                <button>Saiba mais</button>
             </div>
         </header>
 
-        <div class="sidebar">
+        <aside class="sidebar">
             <nav>
                 <ul class="menu">
                     <li class="menu-item"><a href="#" class="menu-link">Home</a></li>
@@ -50,10 +50,188 @@
                 <a href=""><i class="fab fa-github"></i></a>
                 <a href=""><i class="fab fa-twitter"></i></a>
             </div>
-        </div>
-    </div>
+        </aside>
 
+        <!-- essa estrutura da SECTION criei assim -> section.sessao-conhecimentos>(.sessao-header>h1)+.conhecimentos>(.conhecimento>(.conhecimento-header>i.fab+h3).conhecimento-text>p{lorem30})*6  <- depois dei enter e criou toda a estrutura -->
+        <section class="sessao-conhecimentos">
+            <div class="sessao-header">
+                <h1>Conhecimentos</h1>
+            </div>
+            <div class="conhecimentos">
+                <div class="conhecimento">
+                    <div class="conhecimento-header">
+                        <i class="fab fa-html5"></i>
+                        <h3>HTML</h3>
+                    </div>
+                    <div class="conhecimento-text">
+                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Facere debitis dignissimos quidem
+                            animi ea expedita autem natus, quia asperiores voluptate. Qui corporis culpa nihil ab magnam
+                            commodi reiciendis odit totam?
+                        </p>
+                    </div>
+                </div>
+                <div class="conhecimento">
+                    <div class="conhecimento-header">
+                        <i class="fab fa-css3-alt"></i>
+                        <h3>CSS</h3>
+                    </div>
+                    <div class="conhecimento-text">
+                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Facere debitis dignissimos quidem
+                            animi ea expedita autem natus, quia asperiores voluptate. Qui corporis culpa nihil ab magnam
+                            commodi reiciendis odit totam?</p>
+                    </div>
+                </div>
+                <div class="conhecimento">
+                    <div class="conhecimento-header">
+                        <i class="fas fa-pencil-alt"></i>
+                        <h3>Design</h3>
+                    </div>
+                    <div class="conhecimento-text">
+                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Facere debitis dignissimos quidem
+                            animi ea expedita autem natus, quia asperiores voluptate. Qui corporis culpa nihil ab magnam
+                            commodi reiciendis odit totam?</p>
+                    </div>
+                </div>
+                <div class="conhecimento">
+                    <div class="conhecimento-header">
+                        <i class="fab fa-js"></i>
+                        <h3>JavaScript</h3>
+                    </div>
+                    <div class="conhecimento-text">
+                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Facere debitis dignissimos quidem
+                            animi ea expedita autem natus, quia asperiores voluptate. Qui corporis culpa nihil ab magnam
+                            commodi reiciendis odit totam?</p>
+                    </div>
+                </div>
+                <div class="conhecimento">
+                    <div class="conhecimento-header">
+                        <i class="fab fa-bootstrap"></i>
+                        <h3>Bootstrap</h3>
+                    </div>
+                    <div class="conhecimento-text">
+                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Facere debitis dignissimos quidem
+                            animi ea expedita autem natus, quia asperiores voluptate. Qui corporis culpa nihil ab magnam
+                            commodi reiciendis odit totam?</p>
+                    </div>
+                </div>
+                <div class="conhecimento">
+                    <div class="conhecimento-header">
+                        <i class="fab fa-github"></i>
+                        <h3>Git e GitHub</h3>
+                    </div>
+                    <div class="conhecimento-text">
+                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Facere debitis dignissimos quidem
+                            animi ea expedita autem natus, quia asperiores voluptate. Qui corporis culpa nihil ab magnam
+                            commodi reiciendis odit totam?</p>
+                    </div>
+                </div>
+                <div class="conhecimentos-img-wrapper">
+                    <img src="imagens/kids.png" alt="imagem conhecimento">
+                </div>
+            </div>
+        </section>
+
+        <!-- Aqui estou criando a Section dos projetos -->
+        <section class="sessao-projetos">
+            <div class="sessao-header">
+                <h1>Projetos</h1>
+            </div>
+            <div class="projetos">
+                <div class="card">
+                    <div class="card-img-wrapper">
+                        <img src="imagens/teclado.jpg" alt="Starting work">
+                    </div>
+                    <div class="card-info">
+                        <h2>Todo List</h2>
+                        <h3>JavaScript</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sed ex aspernatur voluptas quam.
+                            Voluptatem illum aspernatur eum rerum. Magni aspernatur veniam voluptatibus sit ex quia nam
+                            autem repudiandae magnam id.</p>
+                        <button class="btn">Saiba Mais</button>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card-img-wrapper">
+                        <img src="imagens/group.jpg" alt="Working in group">
+                    </div>
+                    <div class="card-info">
+                        <h2>Maratona</h2>
+                        <h3>HTML, CSS</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis aliquam architecto
+                            aspernatur magnam vitae velit voluptas quibusdam corrupti, doloribus autem voluptate
+                            ratione, saepe quo enim eveniet, sed minus ut molestiae.</p>
+                        <button class="btn">Saiba Mais</button>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card-img-wrapper">
+                        <img src="imagens/light.jpg" alt="New idea">
+                    </div>
+                    <div class="card-info">
+                        <h2>Casa Bela</h2>
+                        <h3>HTML</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut incidunt sed sunt. Ducimus quae
+                            vero consectetur illo voluptatum dolores, quas vel quibusdam vitae quaerat rem quasi
+                            blanditiis, officiis, molestias laboriosam!</p>
+                        <button class="btn">Saiba Mais</button>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- Seção do contato ---------------------- -->
+        <section class="sessao-contato">
+            <div class="contato-wrapper">
+                <div class="contato-left"></div>
+                <div class="contato-right">
+                    <h1>Contato</h1>
+                    <form>
+                        <div class="input-group">
+                            <input type="text" class="field" id="nome">
+                            <label for="nome" class="field-label">Nome</label>
+                        </div>
+                        <div class="input-group">
+                            <input type="text" class="field" id="email">
+                            <label for="email" class="field-label">E-mail</label>
+                        </div>
+                        <div class="input-group">
+                            <textarea class="field" id="mensagem"></textarea>
+                            <label for="mensagem" class="field-label">Mensagem</label>
+                        </div>
+                        <button class="btn btn-submit" type="submit">Enviar</button>
+                    </form>
+                </div>
+            </div>
+        </section>
+
+        <section class="sessao-orcamento">
+            <div class="orcamento-wrapper">
+                <h1>Faça um orçamento</h1>
+                <form>
+                    <label for="qtde">Quantidade de Pagínas</label>
+                    <input type="number" min="1" name="qtde" id="qtde">
+                    <label for="js">Preciso de um script JavaScript</label>
+                    <input type="checkbox" name="js" id="js">
+                    <label>Layout</label>
+                    <div class="group-layout">
+                        <div>
+                            <input type="radio" name="layout" id="layout-sim">
+                            <label for="layout-sim">Preciso de um Layout</label>
+                        </div>
+                        <div>
+                            <input type="radio" name="layout" id="layout-nao">
+                            <label for="layout-sim">Já tenho um Layout</label>
+                        </div>
+                    </div>
+                    <label for="prazo">Prazo</label>
+                    <input type="range" name="prazo" id="prazo">
+                    <button class="btn btn-orcamento" type="submit">Enviar</button>
+                </form>
+            </div>
+        </section>
+
+    </div>
 </body>
 <!-- sempre colocamos o script do javascript no final do html -->
 <script src="script.js"></script>
+
 </html>
